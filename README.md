@@ -65,10 +65,24 @@ Welcome to my cybersecurity lab journal, documenting my progress through TryHack
 
 ---
 
-## 📌 Next Steps
-- Complete Attacking AD section
-- Begin Blue Team tools & SOC lab scenarios
-- Build sample tickets from simulated Help Desk scenarios
+### 🏢 Active Directory (Completed)
+- Explored the structure and role of Active Directory within Windows-based networks
+- Learned how authentication, domain controllers, users, and groups operate within AD
+- Practiced enumerating AD information using tools like `rpcclient`, `enum4linux`, and `nmap`
+- Simulated real-world attacker enumeration techniques against misconfigured AD environments
+- Gained understanding of concepts like Kerberos, LDAP, and Group Policy Objects (GPO)
+
+🛠 Tools used:
+- `rpcclient`
+- `enum4linux`
+- `nmap`
+- AD-based virtual lab environment (TryHackMe)
+
+🎯 Skills Gained:
+- Domain enumeration and reconnaissance
+- Identifying vulnerable user accounts and misconfigured shares
+- Understanding authentication protocols and privilege escalation paths within AD
+
 
 ---
 
