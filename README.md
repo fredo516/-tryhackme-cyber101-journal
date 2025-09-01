@@ -91,3 +91,56 @@ Welcome to my cybersecurity lab journal, documenting my progress through TryHack
 - Cisco Networking Academy – CCNA (Course Completion)
 
 
+💻 Windows Command Line (Completed)
+
+Platform: TryHackMe — Cybersecurity 101 Path
+Difficulty: Easy
+Focus: Navigating Windows via CMD, process management, file operations, and basic networking commands.
+
+Key Skills & Commands Learned:
+
+Navigation & File Management:
+
+cd, cd .., cd \ for directory traversal
+
+dir & dir /a to list visible and hidden files
+
+type and more to read file contents
+
+Using wildcards (*.txt) for batch operations
+
+Process Management:
+
+tasklist /FI "imagename eq <process>" to filter running processes
+
+taskkill /PID <pid> to terminate processes by PID
+
+System Information:
+
+ver and systeminfo to retrieve OS details
+
+Identified OS version from SSH banner: Windows Server 2022 (10.0.20348.2655)
+
+Networking Commands:
+
+ipconfig / ipconfig /all for IP configuration
+
+ping, tracert, nslookup for connectivity & DNS resolution
+
+netstat for viewing established connections and listening ports
+
+System Control:
+
+shutdown /s to shut down
+
+shutdown /r to restart
+
+shutdown /a to abort a scheduled shutdown
+
+Notable Task:
+
+SSH into target Windows VM via AttackBox, navigate hidden directory C:\Treasure\Hunt, locate and read flag.txt to retrieve flag THM{CLI_POWER}.
+
+Reflection:
+This module strengthened my confidence in navigating and managing Windows systems without relying on the GUI. Skills learned here directly translate to real-world scenarios like incident response, malware removal, and system auditing in a command-line–only environment.
+
