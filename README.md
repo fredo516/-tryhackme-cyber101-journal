@@ -84,12 +84,6 @@ Welcome to my cybersecurity lab journal, documenting my progress through TryHack
 - Understanding authentication protocols and privilege escalation paths within AD
 
 
----
-
-## 🔗 Other Learning
-- Google Cybersecurity Certificate (2025)
-- Cisco Networking Academy – CCNA (Course Completion)
-
 
 💻 Windows Command Line (Completed)
 
